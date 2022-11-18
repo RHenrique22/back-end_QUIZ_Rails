@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mensagem: MyString
+  like: 1
+  deslike: 1
+  comentario: one
+
+two:
+  mensagem: MyString
+  like: 1
+  deslike: 1
+  comentario: two
