@@ -4,7 +4,7 @@ class CreateComentarios < ActiveRecord::Migration[6.1]
       t.string :mensagem
       t.integer :like
       t.integer :deslike
-      t.references :comentario, null: false, foreign_key: true
+      t.references :comentario, null: true, foreign_key: true
 
       t.timestamps
     end
