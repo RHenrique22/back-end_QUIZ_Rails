@@ -1,2 +1,0 @@
-class Mural < ApplicationRecord
-end
